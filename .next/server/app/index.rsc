@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/4fd93823156e59e8.js"],"default"]
+3:I[37457,["/_next/static/chunks/4fd93823156e59e8.js"],"default"]
+4:I[3891,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+5:I[90275,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+6:I[47420,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+7:I[36894,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+8:I[92349,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+9:I[12217,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+a:I[92556,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+b:I[90183,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+c:I[63593,["/_next/static/chunks/fde5e1c58f6cabc8.js"],"default"]
+d:I[97367,["/_next/static/chunks/4fd93823156e59e8.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/4fd93823156e59e8.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/4fd93823156e59e8.js"],"MetadataBoundary"]
+14:I[68027,["/_next/static/chunks/4fd93823156e59e8.js"],"default"]
+:HL["/_next/static/chunks/09b86001fea379d9.css","style"]
+0:{"P":null,"b":"nqUaiC7peKzPnA-epULFQ","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/09b86001fea379d9.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen overflow-x-hidden relative bg-charcoal","children":[["$","div",null,{"className":"fixed inset-0 bg-gradient-to-br from-charcoal via-charcoal/95 to-charcoal z-0"}],["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"className":"relative z-10","children":[["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$L9",null,{}],["$","$Lb",null,{}],["$","$L9",null,{}],["$","$Lc",null,{}],["$","footer",null,{"className":"py-16 px-4 text-center text-charcoal/50 text-sm relative z-10","children":["$","p",null,{"className":"text-white/40","children":"Made with ✨ for Gen-Z souls seeking calm"}]}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/fde5e1c58f6cabc8.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$L13"}]}]}],null]}],false]],"m":"$undefined","G":["$14",[]],"S":true}
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+13:[["$","title","0",{"children":"Spiritual Music Experience"}],["$","meta","1",{"name":"description","content":"A 60-second spiritual music experience, created for how you feel today."}]]

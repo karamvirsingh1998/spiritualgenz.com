@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40c8b8a40e7888f2858de3cb59b0493420b684174c": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitWaitlist",
+          "filename": "app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "app/actions.ts",
+      "exportedName": "submitWaitlist"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "RS/evDzH1PV7cJMJS3CyBXZG3zsrlT7P1qdI7doZpcU="
+}
