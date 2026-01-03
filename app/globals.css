@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-offwhite text-charcoal;
+    overflow-x: hidden;
+  }
+  
+  * {
+    @apply selection:bg-softgreen/30;
+  }
+}
+
+@layer utilities {
+  /* Vibrant gradient text */
+  .gradient-text-vibrant {
+    background: linear-gradient(135deg, #B4A5D8, #6B7FD7, #A8D5E2, #B8E6B8, #F4C2A1);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 8s ease infinite;
+  }
+  
+  .gradient-text-2 {
+    background: linear-gradient(135deg, #E8B4B8, #FF9F8E, #F4C2A1);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 6s ease infinite;
+  }
+  
+  /* Glow effects */
+  .glow-purple {
+    box-shadow: 0 0 30px rgba(180, 165, 216, 0.5);
+  }
+  
+  .glow-blue {
+    box-shadow: 0 0 30px rgba(107, 127, 215, 0.5);
+  }
+  
+  .glow-pink {
+    box-shadow: 0 0 30px rgba(232, 180, 184, 0.5);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px rgba(180, 165, 216, 0.6);
+  }
+  
+  /* Breathing animation */
+  .animate-breathe {
+    animation: breathe 4s ease-in-out infinite;
+  }
+  
+  /* Floating animation */
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .float-delayed {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  
+  /* Pulse animation */
+  .pulse-slow {
+    animation: pulseSlow 3s ease-in-out infinite;
+  }
+  
+  /* Shimmer effect */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+  }
+  
+  /* Rotate animation */
+  .rotate-slow {
+    animation: rotateSlow 20s linear infinite;
+  }
+  
+  /* Bounce animation */
+  .bounce-gentle {
+    animation: bounceGentle 2s ease-in-out infinite;
+  }
+  
+  /* Gradient background */
+  .bg-gradient-spiritual {
+    background: linear-gradient(135deg, 
+      rgba(180, 165, 216, 0.1) 0%,
+      rgba(107, 127, 215, 0.1) 25%,
+      rgba(168, 213, 226, 0.1) 50%,
+      rgba(184, 230, 184, 0.1) 75%,
+      rgba(244, 194, 161, 0.1) 100%
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  @keyframes breathe {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    33% {
+      transform: translateY(-15px) rotate(2deg);
+    }
+    66% {
+      transform: translateY(-5px) rotate(-2deg);
+    }
+  }
+  
+  @keyframes pulseSlow {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  @keyframes rotateSlow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes bounceGentle {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Smooth section transitions */
+  section {
+    scroll-margin-top: 80px;
+  }
+  
+  /* Cool cursor effect (optional) */
+  .cool-cursor {
+    cursor: none;
+  }
+  
+  /* Parallax effect */
+  .parallax-slow {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+}
