@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd waitlist-page && npm install && npm run build",
+  "outputDirectory": "waitlist-page/.next",
+  "installCommand": "cd waitlist-page && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "waitlist-page"
+}
