@@ -23,16 +23,17 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto text-center space-y-12 relative z-10">
         <div className="space-y-6">
           <AnimatedText
-            text="Music that gets you. Like, actually gets you."
-            className="text-6xl md:text-8xl lg:text-9xl font-black leading-[0.9] text-white"
+            text="What if ancient stories could understand how you feel right now?"
+            className="text-5xl md:text-7xl lg:text-8xl font-black leading-[1] text-white"
             delay={200}
-            wordDelay={80}
+            wordDelay={100}
           />
         </div>
         
-        <p className="text-2xl md:text-3xl text-white/80 font-medium max-w-4xl mx-auto animate-fade-in-delay-1">
-          No cap. Just 60 seconds of vibes that match your energy. 
-          <span className="gradient-text-vibrant font-bold"> Real talk, real feels.</span>
+        <p className="text-xl md:text-2xl text-white/70 font-medium max-w-4xl mx-auto animate-fade-in-delay-1 leading-relaxed">
+          We're creating something new. A way to feel understood through music and stories that actually get you.
+          <br className="hidden md:block mt-2" />
+          <span className="gradient-text-vibrant font-bold"> Personalized. Meaningful. Just for you.</span>
         </p>
         
         <div className="pt-8 animate-fade-in-delay-2">

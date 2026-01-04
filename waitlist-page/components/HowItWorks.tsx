@@ -6,20 +6,20 @@ export default function HowItWorks() {
   const steps = [
     {
       number: "1",
-      text: "Drop how you're feeling",
+      text: "Share how you feel right now",
       emoji: "💭",
       color: "lavender",
     },
     {
       number: "2",
-      text: "We craft your vibe in 60 seconds",
-      emoji: "🎵",
+      text: "We find stories that understand you",
+      emoji: "📖",
       color: "indigo",
     },
     {
       number: "3",
-      text: "Listen, vibe, or keep the convo going",
-      emoji: "✨",
+      text: "Get music made just for you",
+      emoji: "🎵",
       color: "sky",
     },
   ];
@@ -38,7 +38,7 @@ export default function HowItWorks() {
             <h2 className="text-4xl md:text-6xl font-black mb-4 text-white">
               How It Works
             </h2>
-            <p className="text-white/60 text-xl">Simple. Fast. Real.</p>
+            <p className="text-white/60 text-xl">Simple. Personal. Meaningful.</p>
           </div>
         </ScrollReveal>
         <div className="space-y-20 md:space-y-24">
