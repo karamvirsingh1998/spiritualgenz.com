@@ -28,14 +28,14 @@ export default function DynamicWhatIf() {
   const currentQuestion = whatIfQuestions[currentIndex];
 
   return (
-    <div className="min-h-[200px] flex items-center justify-center">
+    <div className="min-h-[180px] md:min-h-[250px] flex items-center justify-center px-4">
       <h1
-        className={`text-5xl md:text-7xl lg:text-8xl font-black leading-tight text-center transition-all duration-500 ${
+        className={`text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black leading-tight text-center transition-all duration-500 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
         <span className="text-white">{currentQuestion.text}</span>
-        <span className={`${currentQuestion.color} gradient-text-vibrant`}>
+        <span className={`${currentQuestion.color} inline-block`}>
           {currentQuestion.highlight}
         </span>
         <span className="text-white">?</span>
