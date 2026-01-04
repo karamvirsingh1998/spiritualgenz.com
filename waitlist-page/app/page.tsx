@@ -1,13 +1,11 @@
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
-import EmotionalContext from "@/components/EmotionalContext";
 import WaitlistForm from "@/components/WaitlistForm";
 import SmoothScroll from "@/components/SmoothScroll";
 import AnimatedGradientBackground from "@/components/AnimatedGradientBackground";
 import SpiritualBackground from "@/components/SpiritualBackground";
 import ColorBlobs from "@/components/ColorBlobs";
 import ScrollIndicator from "@/components/ScrollIndicator";
-import CoolDivider from "@/components/CoolDivider";
 
 export default function Home() {
   return (
@@ -18,25 +16,23 @@ export default function Home() {
       <SpiritualBackground />
       <ColorBlobs />
       
-      {/* Content */}
+      {/* Content - Only 3 Sections */}
       <div className="relative z-10">
         <SmoothScroll />
         <ScrollIndicator />
         
+        {/* Section 1: Hero with Dynamic What If Questions */}
         <Hero />
-        <CoolDivider />
         
+        {/* Section 2: How It Works */}
         <HowItWorks />
-        <CoolDivider />
         
-        <EmotionalContext />
-        <CoolDivider />
-        
+        {/* Section 3: Contact/Waitlist */}
         <WaitlistForm />
         
         {/* Footer */}
-        <footer className="py-16 px-4 text-center text-charcoal/50 text-sm relative z-10">
-          <p className="text-white/40">Made with ✨ for Gen-Z souls seeking calm</p>
+        <footer className="py-12 px-4 text-center relative z-10">
+          <p className="text-white/30 text-sm">Made for Gen-Z</p>
         </footer>
       </div>
     </main>

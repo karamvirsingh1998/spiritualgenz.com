@@ -34,11 +34,10 @@ export default function HowItWorks() {
     <section className="py-40 px-4 relative">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
-          <div className="text-center mb-24">
-            <h2 className="text-4xl md:text-6xl font-black mb-4 text-white">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-black mb-3 text-white">
               How It Works
             </h2>
-            <p className="text-white/60 text-xl">Simple. Personal. Meaningful.</p>
           </div>
         </ScrollReveal>
         <div className="space-y-20 md:space-y-24">
