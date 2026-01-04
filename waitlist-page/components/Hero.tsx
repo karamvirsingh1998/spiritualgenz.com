@@ -8,12 +8,18 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto text-center space-y-16 relative z-10">
         <DynamicWhatIf />
         
-        <div className="space-y-8 max-w-3xl mx-auto">
-          <p className="text-2xl md:text-3xl text-white/90 font-medium leading-relaxed">
-            No one is feeling you. Sometimes you can't share. Sometimes you just need music.
+        <div className="space-y-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/80 font-medium leading-relaxed">
+            It's not regular music you listen. 
+            <br className="hidden md:block" />
+            <span className="gradient-text-vibrant font-bold">A music customized for you</span> taking you to a spiritual journey.
           </p>
-          <p className="text-xl md:text-2xl text-white/70 font-light">
-            Music is the best way to heal. We're building that.
+          <p className="text-lg md:text-xl text-white/70 font-light leading-relaxed">
+            See how our great warriors handled things. 
+            <span className="font-medium">Only customized for you in Gen-Z style.</span>
+          </p>
+          <p className="text-xl md:text-2xl text-white/90 font-semibold mt-6">
+            Are you excited for it?
           </p>
         </div>
         
