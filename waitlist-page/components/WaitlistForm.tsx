@@ -52,17 +52,12 @@ export default function WaitlistForm() {
       <div className="max-w-lg mx-auto relative z-10">
         <ScrollReveal>
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-4 text-white">
-              Get Early Access
+            <h2 className="text-4xl md:text-5xl font-black text-center mb-6 text-white">
+              Join Us
             </h2>
-            <p className="text-white/70 text-xl mb-4">
-              Be the first to experience something cool ✨
+            <p className="text-white/60 text-lg">
+              Get early access when we launch
             </p>
-            <div className="flex items-center justify-center gap-3 mt-6">
-              <span className="text-3xl animate-bounce-gentle">🚀</span>
-              <span className="text-base text-white/50">Limited spots available</span>
-              <span className="text-3xl animate-bounce-gentle" style={{ animationDelay: '0.3s' }}>🎯</span>
-            </div>
           </div>
         </ScrollReveal>
         <ScrollReveal delay={200}>
