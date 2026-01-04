@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import HowItWorks from "@/components/HowItWorks";
+import MusicCTA from "@/components/MusicCTA";
 import WaitlistForm from "@/components/WaitlistForm";
 import SmoothScroll from "@/components/SmoothScroll";
 import SimpleBackground from "@/components/SimpleBackground";
@@ -19,8 +19,8 @@ export default function Home() {
         {/* Section 1: Hero with Dynamic What If Questions */}
         <Hero />
         
-        {/* Section 2: How It Works */}
-        <HowItWorks />
+        {/* Section 2: Music CTA */}
+        <MusicCTA />
         
         {/* Section 3: Contact/Waitlist */}
         <WaitlistForm />
