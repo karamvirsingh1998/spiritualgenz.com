@@ -31,8 +31,21 @@ export default function Home() {
         <WaitlistForm />
         
         {/* Footer */}
-        <footer className="py-12 px-4 text-center relative z-10">
-          <p className="text-white/30 text-sm">Made for Gen-Z</p>
+        <footer className="py-16 px-4 text-center relative z-10">
+          <p className="text-white/40 text-base mb-2">
+            Built by Gen-Z, for Gen-Z
+          </p>
+          <p className="text-white/30 text-sm">
+            Because only we understand how we feel
+          </p>
+          <a 
+            href="https://www.linkedin.com/in/karamvir-singh-842838177/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-white/50 hover:text-white/80 text-sm transition-colors underline underline-offset-4"
+          >
+            Connect with the builder
+          </a>
         </footer>
       </div>
     </main>

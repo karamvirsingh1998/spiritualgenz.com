@@ -17,19 +17,20 @@ export async function submitWaitlist(formData: FormData) {
   }
 
   try {
-    // Check if email already exists
-    const { data: existingData, error: checkError } = await supabase
+    const normalizedEmail = email.toLowerCase().trim();
+    
+    // Check if email already exists - use count for better RLS compatibility
+    const { count, error: checkError } = await supabase
       .from("waitlist")
-      .select("email")
-      .eq("email", email.toLowerCase().trim())
-      .single();
+      .select("email", { count: "exact", head: true })
+      .eq("email", normalizedEmail);
 
-    if (checkError && checkError.code !== "PGRST116") {
-      // PGRST116 is "not found" error, which is fine
+    if (checkError) {
       console.error("Error checking email:", checkError);
+      // If we can't check, still try to insert - database constraint will catch it
     }
 
-    if (existingData) {
+    if (count && count > 0) {
       return { 
         error: "This email is already registered. Please use a different email address." 
       };
@@ -40,7 +41,7 @@ export async function submitWaitlist(formData: FormData) {
       .from("waitlist")
       .insert([
         {
-          email: email.toLowerCase().trim(),
+          email: normalizedEmail,
           note: note ? note.trim() : null,
         },
       ])

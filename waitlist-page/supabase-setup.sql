@@ -25,6 +25,18 @@ CREATE POLICY "Allow anon inserts" ON waitlist
   TO anon
   WITH CHECK (true);
 
+-- Allow anon role to check if email exists (for duplicate checking)
+CREATE POLICY "Allow anon select for duplicate check" ON waitlist
+  FOR SELECT
+  TO anon
+  USING (true);
+
+-- Also allow public role to check emails
+CREATE POLICY "Allow public select for duplicate check" ON waitlist
+  FOR SELECT
+  TO public
+  USING (true);
+
 -- Optional: Create a policy for service role to read all records
 -- (You'll need to use service_role key for this, not anon key)
 CREATE POLICY "Allow service role read" ON waitlist
