@@ -39,7 +39,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block mt-2 md:mt-4 text-white/50 hover:text-white/80 text-xs md:text-sm transition-colors underline underline-offset-4"
           >
-            Connect with the builder
+            Connect with Builder
           </a>
         </footer>
       </div>
